@@ -52,7 +52,7 @@ import { ref, computed, onMounted } from 'vue';
 import axios from 'axios';
 
 // Axios alapértelmezett beállítása (írd át, ha a Laravel más címen fut)
-const API_URL = 'https://teszt-laravel-task-api.wasmer.app/';
+const API_URL = 'https://teszt-laravel-task-api.wasmer.app/api'
 
 
 const tasks = ref([]);
