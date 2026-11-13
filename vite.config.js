@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/TESZT_vue_task-frontend/',
   plugins: [
     vue(),
     vueDevTools(),
